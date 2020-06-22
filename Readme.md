@@ -29,3 +29,8 @@ conan profile list
 conan profile show default
 ```
 
+### Update profile
+```
+conan profile update settings.compiler=gcc default
+```
+Here compiler value (under settings section) of default profile is updated to `gcc`. If value has space (like `Visual Studio`), quote value with `inverted commas ""`. 
